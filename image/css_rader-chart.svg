@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 608.31 502.09">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        font-family: NotoSansKR-Regular, 'Noto Sans KR';
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-9 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g>
+      <path class="cls-4" d="M442.12,22.1l89.2,274.52-233.52,169.66-233.52-169.66L153.48,22.1h288.64M445.03,18.1H150.58L59.58,298.14l238.22,173.08,238.22-173.08L445.03,18.1h0Z"/>
+      <path class="cls-4" d="M412.68,62.63l71,218.51-185.87,135.04-185.87-135.04L182.93,62.63h229.75M415.59,58.63h-235.56l-72.79,224.03,190.58,138.46,190.58-138.46-72.79-224.03h0Z"/>
+      <path class="cls-4" d="M389.12,95.05l56.44,173.7-147.76,107.35-147.76-107.35,56.44-173.7h182.64M392.03,91.05h-188.45l-58.23,179.23,152.46,110.77,152.46-110.77-58.23-179.23h0Z"/>
+      <path class="cls-4" d="M363.75,134.1l40.76,125.44-106.7,77.52-106.7-77.52,40.76-125.44h131.89M366.66,130.1h-137.71l-42.55,130.97,111.41,80.94,111.41-80.94-42.55-130.97h0Z"/>
+      <path class="cls-4" d="M336.08,171.17l23.65,72.8-61.93,44.99-61.93-44.99,23.65-72.8h76.55M338.98,167.17h-82.36l-25.45,78.33,66.63,48.41,66.63-48.41-25.45-78.33h0Z"/>
+      <g class="cls-9">
+        <polygon class="cls-4" points="297.8 399.29 465.72 275.26 417.1 58.63 170.61 42.85 107.23 283.15 297.8 399.29"/>
+      </g>
+      <text class="cls-5" transform="translate(128.99 10.56)"><tspan x="0" y="0">Semantics</tspan></text>
+      <text class="cls-5" transform="translate(261.89 489.66)"><tspan class="cls-3" x="0" y="0">P</tspan><tspan x="7.24" y="0">er</tspan><tspan class="cls-6" x="18.54" y="0">f</tspan><tspan x="22.27" y="0">orman</tspan><tspan class="cls-1" x="59.39" y="0">c</tspan><tspan class="cls-2" x="65.18" y="0">e</tspan></text>
+      <text class="cls-5" transform="translate(0 302.7)"><tspan class="cls-6" x="0" y="0">R</tspan><tspan x="7.45" y="0">eliability</tspan></text>
+      <text class="cls-5" transform="translate(437.03 10.56)"><tspan x="0" y="0">La</tspan><tspan class="cls-7" x="13.27" y="0">y</tspan><tspan x="19.44" y="0">out</tspan></text>
+      <text class="cls-5" transform="translate(539.97 298.8)"><tspan x="0" y="0">A</tspan><tspan class="cls-6" x="7.3" y="0">r</tspan><tspan x="11.78" y="0">chi</tspan><tspan class="cls-8" x="28.49" y="0">t</tspan><tspan x="32.8" y="0">e</tspan><tspan class="cls-6" x="39.44" y="0">c</tspan><tspan x="45.4" y="0">tu</tspan><tspan class="cls-6" x="57.2" y="0">r</tspan><tspan x="61.69" y="0">e</tspan></text>
+      <circle class="cls-4" cx="465.72" cy="275.26" r="7.89"/>
+      <circle class="cls-4" cx="417.1" cy="58.63" r="7.89"/>
+      <circle class="cls-4" cx="170.61" cy="42.85" r="7.89"/>
+      <circle class="cls-4" cx="107.23" cy="283.15" r="7.89"/>
+      <circle class="cls-4" cx="297.8" cy="397.92" r="7.89"/>
+      <path class="cls-4" d="M172.13,44.95l243.35,15.58,48,213.89-165.78,122.46-188.15-114.66,62.58-237.27M170.61,42.85l-63.38,240.3,190.58,116.14,167.91-124.03-48.62-216.63-246.49-15.78h0Z"/>
+    </g>
+  </g>
+</svg>
