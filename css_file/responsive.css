@@ -8,8 +8,7 @@
   /* 헤더 */
   .header{
     background-color: var(--color-black);
-    width: calc(100% - 40px);
-    max-width: 448px;
+    width: 448px;
     border-radius: 12px;
     margin: 16px auto;
   }
