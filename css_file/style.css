@@ -4,7 +4,7 @@ section{
   width: 100%; height: auto;
 }
 .inner{
-  max-width: 1620px; width: 100%; height: auto;
+  width: 1620px; height: auto;
   margin: 0 auto;
 }
 /* 공통 코드 */
