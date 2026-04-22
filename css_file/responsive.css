@@ -278,7 +278,7 @@
   .button-wrap{grid-template-columns: repeat(2, 1fr);}
   
   /* 스킬 섹션 : 사용 가능 언어/툴  */
-  .skill-sect{height: 1530px;}
+  .skill-sect{min-height: 1930px;}
   .skill-rating-wrap{
     width: 100%; height: auto;
   }
@@ -393,7 +393,7 @@
  
   /* 포트폴리오 섹션 : 포트폴리오 작품들 */
   .works-sect{
-    height: 1260px;
+    min-height: 1260px;
     margin-top: 60px;
     padding: 0;
   }
