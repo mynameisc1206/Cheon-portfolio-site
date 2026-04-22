@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 601.16 501.31">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        font-family: NotoSansKR-Regular, 'Noto Sans KR';
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g class="cls-7">
+      <polygon class="cls-1" points="314.5 443.29 481.5 274.1 443.03 42.84 212.18 80.54 123.92 282.66 314.5 443.29"/>
+    </g>
+    <g>
+      <path class="cls-1" d="M458.82,22.1l89.2,274.52-233.52,169.66-233.52-169.66L170.17,22.1h288.64M461.72,18.1H167.27l-90.99,280.04,238.22,173.08,238.22-173.08L461.72,18.1h0Z"/>
+      <path class="cls-1" d="M429.37,62.63l71,218.51-185.87,135.04-185.87-135.04L199.62,62.63h229.75M432.28,58.63h-235.56l-72.79,224.03,190.58,138.46,190.58-138.46-72.79-224.03h0Z"/>
+      <path class="cls-1" d="M405.82,95.05l56.44,173.7-147.76,107.35-147.76-107.35,56.44-173.7h182.64M408.72,91.05h-188.45l-58.23,179.23,152.46,110.77,152.46-110.77-58.23-179.23h0Z"/>
+      <path class="cls-1" d="M380.44,134.1l40.76,125.44-106.7,77.52-106.7-77.52,40.76-125.44h131.89M383.35,130.1h-137.71l-42.55,130.97,111.41,80.94,111.41-80.94-42.55-130.97h0Z"/>
+      <path class="cls-1" d="M352.77,171.17l23.65,72.8-61.93,44.99-61.93-44.99,23.65-72.8h76.55M355.68,167.17h-82.36l-25.45,78.33,66.63,48.41,66.63-48.41-25.45-78.33h0Z"/>
+      <text class="cls-2" transform="translate(145.69 10.56)"><tspan x="0" y="0">EDITING</tspan></text>
+      <text class="cls-2" transform="translate(274.74 488.88)"><tspan class="cls-8" x="0" y="0">C</tspan><tspan x="7.25" y="0">OMPOSITION</tspan></text>
+      <text class="cls-2" transform="translate(0 302.86)"><tspan x="0" y="0">INTE</tspan><tspan class="cls-5" x="26.45" y="0">R</tspan><tspan class="cls-3" x="33.98" y="0">A</tspan><tspan class="cls-4" x="41.11" y="0">C</tspan><tspan x="48.5" y="0">TIVE</tspan></text>
+      <text class="cls-2" transform="translate(453.73 10.56)"><tspan x="0" y="0">D</tspan><tspan class="cls-5" x="8.26" y="0">R</tspan><tspan x="15.79" y="0">AWING</tspan></text>
+      <text class="cls-2" transform="translate(556.66 298.8)"><tspan x="0" y="0">L</tspan><tspan class="cls-6" x="6.52" y="0">AY</tspan><tspan x="19.75" y="0">OUT</tspan></text>
+    </g>
+    <circle class="cls-1" cx="481.5" cy="274.1" r="7.89"/>
+    <circle class="cls-1" cx="443.03" cy="42.84" r="7.89"/>
+    <circle class="cls-1" cx="212.18" cy="80.54" r="7.89"/>
+    <circle class="cls-1" cx="123.92" cy="281.36" r="7.89"/>
+    <circle class="cls-1" cx="314.5" cy="443.29" r="7.89"/>
+    <path class="cls-1" d="M441.38,45.14l37.98,228.28-164.99,167.15-188.02-158.47,87.22-199.76,227.81-37.2M443.03,42.84l-230.85,37.69-88.25,202.13,190.58,160.62,167.01-169.19-38.48-231.25h0Z"/>
+  </g>
+</svg>
