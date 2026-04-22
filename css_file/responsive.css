@@ -1,0 +1,896 @@
+/* 데스크탑 */
+@media(max-width: 1440px){
+   .inner{
+    max-width: 1280px; width: 100%; height: auto;
+    margin: 0 auto;
+  }
+  
+  /* 인트로 섹션 - 자기소개 */
+  .intro-sect .inner{gap: var(--spacing-re);}
+  .intro-title{flex: 1.5;}
+  .intro-title .title-sm h2{font-size: 81px;}
+  .intro-title .title-sm span{
+    margin-left: 29%;
+    font-size: 40px;
+  }
+  .intro-title .title-lg{font-size: 164px;}
+  .profile .selfi figcaption{
+    width: 70%;
+    font-size: var(--fontsize-sm);
+  }
+  
+  /* 어바웃 섹션 - 교육활동, 경력 */
+  .about-explain{flex: 1;}
+  .about-explain .sub-exlp .img-box img:nth-child(2){display: none;}
+  .about-explain .sub-exlp .text-box{display: none;}
+  .about-title{flex: 1;}
+  .about-title h1{margin-bottom: var(--spacing-2xl);}
+  .about-title span{
+    display: inline-block;
+    margin-bottom: var(--spacing-re);
+  }
+  .about-title .title-expl{display: block;}
+  #employ .about-title h1{font-size: 124px;}
+  
+  /* 스킬 섹션 : 사용 가능 언어/툴 */
+  .skill-btns .btns .btn-box button img{
+    width: 56px; height: 56px;
+  }
+  /* .skill-proficiency .type{
+    margin-bottom: var(--spacing-xl);
+  } */
+  .skill-proficiency .type h2{
+    font-size: var(--fontsize-4xl);
+  }
+  .skill-proficiency .percent .count{
+    font-size: 220px;
+  }
+  .skill-proficiency .approved .sealed{
+    display: block;
+    width: 100%;
+    margin-top: var(--spacing-md);
+  }
+  .skill-rating-box .skill-explain{
+    gap: var(--spacing-xs);
+    padding: 48px 28px;
+  }
+  .explain-text .chart-type h3{font-size: var(--fontsize-lg);}
+  .explain-text .upgrade i img{width: 72px; height: 72px;}
+  .explain-text .upgrade .count{font-size: 112px;}
+  .skill-explain .chart-box{flex: 1;}
+  
+  .works-sect{
+    height: auto;
+    min-height: 1710px;
+  }
+  .portfolio-part{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-2xl);
+  }
+  .portfolio-part:last-child{
+    margin-top: 36px;
+  }
+  .portfolio-part .works-sect-title{
+    width: 45%;
+  }
+  .portfolio-part .works-wrap{
+    align-self: flex-end;
+  }
+  .works-wrap .works-intro-box:nth-child(2), .works-intro-box:nth-child(4){
+    transform: translateY(-210px);
+  }
+  .works-wrap .works-intro-box:nth-child(2):hover{transform: translateY(-220px);}
+  .works-wrap .works-intro-box:nth-child(4):hover{transform: translateY(-220px);}
+}  
+@media(max-width: 1280px){
+  .inner{
+    max-width: 1216px; width: 100%; height: auto;
+    margin: 0 auto;
+  }
+  .intro-sect .inner{gap: var(--spacing-sm);}
+  .intro-title{flex: 1.2; transform: translateY(120px);}
+  .intro-title .title-sm h2{font-size: 72px;}
+  .intro-title .title-lg{font-size: 136px;}
+  .profile{flex: 1;}
+  /* 인트로 섹션 - 자기소개 */
+  .about-explain .represent-img{width: 100%; height: 100%;}
+  .about-explain .represent-img img{object-position: top;}
+  .about-explain .sub-exlp .img-box img:nth-child(1){display: none;}
+  .about-title{flex: 1.5;}
+  #employ .about-title h1{font-size: 88px;}
+}
+/* 노트북 */
+@media(max-width: 1024px){
+  .inner{
+    max-width: 960px; width: 100%; height: auto;
+    margin: 0 auto;
+  }
+  .header.scrolled{
+    width: 95%; height: auto;
+  }
+  /* 인트로 섹션 - 자기소개 */
+  .intro-sect{
+    margin-top: 32px;
+    height: 810px;
+  }
+  .intro-sect .inner{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 180px
+  }
+  .intro-title{flex: 1; width: 100%;}
+  .intro-title .title-sm span{margin-left: 15%;}
+  .profile{flex: 1; width: 100%;}
+  .profile .selfi img{
+    width: 50%; height: 560px;
+  }
+  .profile .selfi figcaption{width: 30%;}
+  
+  /* 어바웃 섹션 - 교육활동, 경력 */
+  .about-sect{
+    margin-top: 90px;
+    padding: 44px 0;
+    height: 630px;
+  }
+  .about-title h1{font-size: 96px;}
+  .tab{height: 180px; padding: var(--spacing-sm);}
+  .tab h3{font-size: var(--fontsize-md);}
+  .tab .tab-explain{margin-top: var(--spacing-2xl);}
+  .tab .tab-explain p{font-size: var(--fontsize-re);}
+  .tab .tab-explain span{font-size: var(--fontsize-xs);}
+
+  .skill-sect{
+    margin-top: 80px; 
+    padding: 28px 0;
+    height: 120vh;
+  }
+  .skill-btn-wrap{
+    flex-direction: column;
+    height: 800px;
+    padding: 64px;
+  }
+  .skill-btn-wrap .skill-btn-title{
+    order: 1; 
+    width: 100%;
+  }
+  .skill-btn-title h1{font-size: 180px;}
+  .skill-btn-wrap .skill-btns{
+    text-align: right;
+    order: 2;
+    width: 100%;
+  }
+  .skill-rating-box .skill-proficiency{
+    flex: 1;
+    padding: var(--spacing-2xl);
+    text-align: center;
+  }
+  .skill-proficiency .percent{text-align: center;}
+  .skill-proficiency .approved{text-align: left;}
+  .skill-proficiency .approved .sealed{text-align: right;}
+  .skill-rating-box .skill-explain{
+    flex-direction: column;
+    flex: 1;
+    padding: var(--spacing-lg) var(--spacing-2xl);
+  }
+  .skill-explain .explain-text{
+    order: 2;
+    text-align: center;
+  }
+  .explain-text .chart-type{margin: var(--spacing-re) 0 var(--spacing-re) 0;}
+  .explain-text .chart-type h3{font-size: var(--fontsize-md);}
+  .explain-text .upgrade i img{width: 48px; height: 48px;}
+  .explain-text .upgrade .count{font-size: 64px;}
+  .explain-text .lan-expl{margin-top: 18px;}
+  .explain-text .lan-expl h6{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .explain-text .lan-expl p{width: 100%;}
+  
+  /* 포트폴리오 섹션 : 포트폴리오 작품들 */
+  .works-sect{
+    margin-top: 80px;
+    padding: 28px 0;
+  }
+  .works-wrap .works-intro-box:nth-child(2), .works-intro-box:nth-child(4){
+    transform: translateY(0px);
+  }
+  .works-wrap .works-intro-box:nth-child(2):hover{transform: translateY(-10px);}
+  .works-wrap .works-intro-box:nth-child(4):hover{transform: translateY(-10px);}
+  .works-intro-box{
+    width: 468px; height: 430px;
+    padding: 56px 36px 56px 36px; 
+  }
+  .works-intro-box .text-box h3{margin-bottom: var(--spacing-re);}
+  /* 팝업 파트 */
+  .popup-box{
+    width: 98%;
+    flex-direction: column;
+  }
+  .popup-image-box{width: 100%;}
+  .popup-image-box img{height: 826%;}
+  /* 세부조정 */
+  #cola .popup-image-box img{height: 973%;}
+  .popup-explain .interraction{display: none;}
+
+  /* 에필로그 섹션 : 연락처 */
+  .info-box{width: 100%;}
+}
+
+/* 태블릿 */
+@media(max-width: 768px){
+  .inner{
+    max-width: 720px; width: 100%; height: auto;
+    margin: 0 auto;
+  }
+
+  .point .inner.reveal {
+  opacity: 1 !important;
+  transform: translateY(-36px) !important;
+  }
+
+  .header{
+    background-color: var(--color-black);
+    width: 98%;
+    border-radius: 12px;
+    margin: 16px auto;
+  }
+  .header .inner{
+    align-items: center;
+    justify-content: center;
+  }
+  .header.scrolled .nav .nav-point{
+    color: var(--color-black);
+  }
+  .home{display: none;}
+  .nav{gap: 54px;}
+  .nav .nav-point{color: var(--color-offwhite);}
+
+  .intro-sect{height: 110vh;}
+  .intro-title .title-sm h2{font-size: 64px;}
+  .intro-title .title-sm span{
+    margin-left: 20%;
+    font-size: 36px;
+  }
+  .intro-title .title-lg{font-size: 124px;}
+  .profile .selfi img{width: 70%;}
+  .profile .selfi figcaption{width: 40%;}
+
+  /* 어바웃 섹션 - 교육활동, 경력 */
+  .about-sect{height: 720px;}
+  .about-explain{
+    flex: 1;
+    gap: 16px;
+  }
+  .about-title{flex: 1;}
+  .about-title h1{
+    font-size: 72px;
+    margin-bottom: 24px;
+  }
+  .about-title p{font-size: 32px;}
+  .about-title span{font-size: var(--fontsize-xs);}
+   #employ .about-title h1{
+    font-size: 72px;
+    margin-bottom: 24px;
+  }
+  .button-wrap{grid-template-columns: repeat(2, 1fr);}
+  
+  /* 스킬 섹션 : 사용 가능 언어/툴  */
+  .skill-sect{height: 1530px;}
+  .skill-rating-wrap{
+    width: 100%; height: auto;
+  }
+  .skill-rating-box{
+    gap: 24px;
+    flex-direction: column;
+  }
+  .skill-rating-box.show{
+    gap: 24px;
+    flex-direction: column;
+  }
+  .skill-rating-box .skill-proficiency{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+     width: 100%; height: 400px;
+     border-radius: 24px;
+     padding: 48px 24px;
+     gap: 16px;
+  }
+  .skill-proficiency .type{
+    margin: 12px 0 12px 0;
+  }
+  .skill-proficiency .type h2{
+    font-size: 40px;
+    font-weight: var(--fontweight-md);
+    margin-bottom: var(--spacing-re);
+  }
+  .skill-proficiency .type p{
+    font-size: var(--fontsize-re);
+    font-weight: var(--fontweight-re);
+  }
+  .skill-proficiency .percent .count{
+    font-size: 96px;
+    font-weight: var(--fontweight-lg);
+  }
+  .skill-proficiency .percent small{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .skill-proficiency .percent::before{
+    width: 260%;
+    left: -160%; bottom: -8px; 
+  }
+  .skill-proficiency .approved{
+    margin-top: var(--spacing-re);
+  }
+  .skill-proficiency .approved span{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .skill-proficiency .approved .sealed{
+    width: 100%;
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .skill-rating-box .skill-explain{
+    flex-direction: column;
+  }
+  .skill-rating-box .skill-explain{
+    gap: var(--spacing-re);
+    border-radius: 24px;
+    padding: 48px;
+  }
+  .skill-explain .explain-text{
+    order: 2;
+    flex: 1;
+  }
+  .skill-explain .chart-box{
+    order: 1;
+    flex: 1;
+    width: 80%;
+  }
+  .explain-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+  }
+  .explain-text .chart-type{
+    margin: var(--spacing-sm) 0 var(--spacing-sm) 0;
+    text-align: center;
+  }
+  .explain-text .upgrade i img{
+    width: 48px; height: 48px;
+  }
+  .explain-text .chart-type h3{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .explain-text .chart-type p{
+    font-size: var(--fontsize-xs);
+  }
+  .explain-text .upgrade .count{
+    font-size: 72px;
+    font-weight: var(--fontweight-lg);
+  }
+  .explain-text .lan-expl{
+    margin-top: var(--spacing-re);
+    text-align: center;
+  }
+  .explain-text .lan-expl h6{
+    font-size: var(--fontsize-lg);
+  }
+  .explain-text .lan-expl span{display: none;}
+  .explain-text .lan-expl p{
+    font-size: var(--fontsize-re);
+    width: 100%;
+  }
+ 
+  /* 포트폴리오 섹션 : 포트폴리오 작품들 */
+  .works-sect{
+    height: 1260px;
+    margin-top: 60px;
+    padding: 0;
+  }
+  .portfolio-part{
+    flex-direction: column;
+    gap: var(--spacing-2xl);
+    padding: 24px 0;
+  }
+  .portfolio-part .works-sect-title{flex: 1;}
+  .works-sect-title h3{
+    font-size: var(--fontsize-md);
+    margin-bottom: var(--spacing-xs);
+  }
+  .works-sect-title h1{
+    font-size: 72px;
+    margin-bottom: var(--spacing-xs);
+  }
+  .works-sect-title h1 small{
+    font-size: var(--fontsize-re);
+  }
+  .works-sect-title span{
+    font-size: var(--fontsize-xs);
+  }
+  .portfolio-part .works-wrap{
+    flex: 1;
+    gap: 12px;
+  }
+  .works-intro-box{
+    width: 100%; height: 320px;
+    padding: 48px 28px 0 28px;
+    border-radius: 12px;
+  }
+  .works-intro-box .icons{
+    margin-bottom: var(--spacing-lg);
+  }
+  .works-intro-box .icons a img{
+    width: 48px; height: 48px;
+  }
+  .works-intro-box .text-box{
+    margin-bottom: var(--spacing-xl);
+  }
+  .works-intro-box .text-box h3{
+    font-size: 28px;
+    margin-bottom: var(--spacing-sm);
+  }
+  .works-intro-box .text-box p{
+    font-size: var(--fontsize-xs);
+    line-height: 1.1;
+  }
+  .works-intro-box .tools{gap: var(--spacing-re);}
+  .works-intro-box .tools img{
+    width: 24px; height: 24px;
+  }
+  .works-intro-box .text-box .badge{display: none;}
+  .works-intro-box .text-box h3 .badge-responsive{
+    display: inline-block;
+    transform: translateY(-4px);
+  }
+
+  /* hover-ani */
+  .works-intro-box:hover{
+    transform: translateY(-6px);
+  }
+
+  .popup-box{
+    height: 820px;
+    padding: 24px;
+  }
+  .popup-image-box img{height: 620%;}
+  .popup-explain div h3{font-size: var(--fontsize-re);}
+  .popup-explain div p{font-size: var(--fontsize-sm);}
+  .popup-explain .design{display: none;}
+
+  /* 에필로그 섹션 : 연락처 */
+  .contact-sect{
+    width: 100%; height: 675px;
+    margin-top: 48px;
+  }
+  .ego{
+    font-size: 36px;
+    font-weight: var(--fontweight-lg);
+    margin-bottom: 64px;
+  }
+  .info-box{
+    width: 100%; height: 200px;
+    flex-direction: column;
+  }
+  .info-box img{
+    width: 64px; height: 64px;
+    margin: 0 0 18px 0;
+  }
+  .info-box .info p{
+    font-size: 28px;
+    font-weight: 28px;
+  }
+  .info-box .info p:first-child{margin-bottom: var(--spacing-sm);}
+  .info-box .info p .colored{margin-right: var(--spacing-re);}
+
+}
+@media(max-width: 480px){
+  .inner{
+    max-width: 448px; width: 100%; height: auto;
+    margin: 0 auto;
+  }
+  /* 공통코드 */
+
+  .point .inner.reveal {
+        opacity: 1 !important;
+        transform: translateY(-120px) !important;
+    }
+
+  /* 헤더 */
+  .header{
+    background-color: var(--color-black);
+    width: 448px;
+    border-radius: 12px;
+    margin: 16px auto;
+  }
+  /* java-ani */
+  .header.scrolled{
+    position: fixed;
+    top: 16px; left: 0; right: 0;
+    z-index: 100;
+    background: #ffffff7d;
+    width: 448px;
+    border-radius: 12px;
+  }
+  .header.scrolled .nav .nav-point{
+    color: var(--color-black);
+  }
+
+  .header .inner{
+    align-items: center;
+    justify-content: center;
+  }
+  .home{display: none;}
+  .nav{gap: 24px;}
+  .nav .nav-point{color: var(--color-offwhite);}
+  /* java-ani */
+  .nav .nav-point.active{color: var(--color-primary);}
+
+  /* 인트로 섹션 - 자기소개 */
+  .intro-sect{
+    height: auto;
+  }
+  .intro-sect .inner{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 160px;
+  }
+  .intro-title{flex: 1;}
+  .intro-title .title-sm h2{
+    font-size: 40px;
+    font-weight: var(--fontweight-md);
+  }
+  .intro-title .title-sm span{
+    font-size: var(--fontsize-re);
+    font-weight: var(--fontweight-md);
+  }
+  .intro-title .title-lg{
+    font-size: var(--fontsize-5xl);
+  }
+  .profile{flex: 1;}
+  .profile .selfi img{width: 60%; height: 305px;}
+  .profile .selfi figcaption{
+    width: 60%;
+    margin-top: 8px;
+    font-size: var(--fontsize-xs);
+  }
+  .profile .selfi figcaption p{margin-top: 2px;}
+  .profile .selfi figcaption p:first-child{margin-top: 0;}
+  
+  
+  /* 어바웃 섹션 - 교육활동, 경력 */
+  .about-sect{
+    margin-top: 120px;
+    padding: 0;
+    height: auto;
+  }
+  .about-tab-box{
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .about-explain{
+    order: 2;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+  }
+  .about-explain .represent-img{
+    width: 216px; height: 216px;
+  }
+  .about-explain .sub-exlp .img-box{margin-bottom: var(--spacing-sm);}
+  .about-explain .sub-exlp .img-box img{
+    width: 100px; height: 95px;
+    margin-right: var(--spacing-sm);
+  }
+  .about-explain .sub-exlp .img-box img:last-child{margin-right: 0;}
+  .about-explain .sub-exlp .text-box{
+    display: inline;
+    font-size: var(--fontsize-xs);
+    line-height: 1.2;
+  }
+  .about-title{
+    order: 1;
+    margin-bottom: var(--spacing-xl);
+  }
+  .about-title h1{
+    font-size: var(--fontsize-2xl);
+    margin-bottom: var(--spacing-re);
+  }
+  #employ .about-title h1{
+    font-size: var(--fontsize-2xl);
+    margin-bottom: var(--spacing-re);
+  }
+  .about-title p{
+    font-size: var(--fontsize-md);
+    font-weight: 400;
+  }
+  .about-title span{
+    font-size: 12px;
+  }
+  .about-title .title-expl {
+    display: none;
+  }
+  .button-wrap{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: var(--spacing-4xl);
+  }
+  .tab{
+    height: 176px;
+    padding: var(--spacing-sm);
+  }
+  .tab h3{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-lg);
+  }
+  .tab .tab-explain{margin-top: 40px;}
+  .tab .tab-explain p{
+    font-size: var(--fontsize-sm);
+    font-weight: 400;
+    margin-bottom: var(--spacing-xs);
+  }
+  .tab .tab-explain span{
+    font-size: var(--fontsize-xs);
+    font-weight: 100;
+  }
+
+  /* 스킬 섹션 : 사용 가능 언어/툴 */
+  .skill-sect{
+    margin-top: 120px;
+    padding: 0;
+    height: auto;
+  }
+  .skill-sect .inner{gap: 8px;}
+  .skill-btn-wrap{
+    flex-direction: column;
+    height: 420px;
+    border-radius: 24px;
+    gap: var(--spacing-2xl);
+  }
+  .skill-btn-wrap .skill-btn-title{
+    order: 1;
+    transform: translateX(-4px);
+  }
+  .skill-btn-title h1{
+    text-align: left;
+    font-size: 72px;
+    font-weight: var(--fontweight-lg);
+  }
+  .skill-btn-title p{font-size: var(--fontsize-re);}
+  .skill-btn-wrap .skill-btns{order: 2;}
+  .skill-btns .btns.dev{margin-bottom: var(--spacing-md);}
+  .skill-btns .btns .btn-text{margin-bottom: var(--spacing-sm);}
+  .skill-btns .btns .btn-text h3{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+    margin-bottom: var(--spacing-xs);
+  }
+  .skill-btns .btns .btn-text p{
+    font-size: var(--fontsize-xs);
+    font-weight: var(--fontsize-sm);
+  }
+  .skill-btns .btns .btn-box{gap: var(--spacing-sm);}
+  .skill-btns .btns .btn-box button{
+    padding: 4px;
+    border-radius: 4px;
+  }
+  .skill-btns .btns .btn-box button img{width: 28px; height: 28px;}
+  .skill-rating-wrap{
+    width: 100%; height: 830px;
+  }
+  .skill-rating-box{
+    gap: 8px;
+    flex-direction: column;
+  }
+  .skill-rating-box.show{
+    gap: 8px;
+    flex-direction: column;
+  }
+  .skill-rating-box .skill-proficiency{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+     width: 100%; height: 200px;
+     border-radius: 24px;
+     padding: 24px;
+     gap: 16px;
+  }
+  .skill-proficiency .type{
+    margin: var(--spacing-re) 0 var(--spacing-re) 0;
+  }
+  .skill-proficiency .type h2{
+    font-size: 40px;
+    font-weight: var(--fontweight-md);
+    margin-bottom: var(--spacing-re);
+  }
+  .skill-proficiency .type p{
+    font-size: var(--fontsize-re);
+    font-weight: var(--fontweight-re);
+  }
+  .skill-proficiency .percent .count{
+    font-size: 96px;
+    font-weight: var(--fontweight-lg);
+  }
+  .skill-proficiency .percent small{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .skill-proficiency .percent::before{
+    width: 260%;
+    left: -160%; bottom: -16px; 
+  }
+  .skill-proficiency .approved{
+    margin-top: var(--spacing-sm);
+  }
+  .skill-proficiency .approved span{
+    font-size: var(--fontsize-re);
+    font-weight: var(--fontweight-md);
+  }
+  .skill-proficiency .approved .sealed{
+    display: inline-block;
+    width: 160px;
+    font-size: var(--fontsize-re);
+    font-weight: var(--fontweight-md);
+  }
+  .skill-rating-box .skill-explain{
+    flex-direction: column;
+  }
+  .skill-rating-box .skill-explain{
+    gap: var(--spacing-re);
+    border-radius: 24px;
+    padding: 24px;
+  }
+  .skill-explain .explain-text{
+    order: 2;
+    flex: 1;
+  }
+  .skill-explain .chart-box{
+    order: 1;
+    flex: 1;
+    width: 100%;
+  }
+  .explain-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+  }
+  .explain-text .chart-type{
+    margin: var(--spacing-sm) 0 var(--spacing-sm) 0;
+    text-align: center;
+  }
+  .explain-text .upgrade i img{
+    width: 48px; height: 48px;
+  }
+  .explain-text .chart-type h3{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .explain-text .chart-type p{
+    font-size: var(--fontsize-xs);
+  }
+  .explain-text .upgrade .count{
+    font-size: 72px;
+    font-weight: var(--fontweight-lg);
+  }
+  .explain-text .lan-expl{
+    margin-top: var(--spacing-re);
+    text-align: center;
+  }
+  .explain-text .lan-expl h6{
+    font-size: var(--fontsize-lg);
+  }
+  .explain-text .lan-expl span{display: none;}
+  .explain-text .lan-expl p{
+    font-size: var(--fontsize-xs);
+    width: 100%;
+  }
+
+  /* 포트폴리오 섹션 : 포트폴리오 작품들 */
+  .works-sect{
+    margin-top: 120px;
+    padding: 0;
+    height: auto;
+  }
+  .portfolio-part{
+    flex-direction: column;
+    gap: var(--spacing-2xl);
+    padding: 24px 0;
+  }
+  .portfolio-part .works-sect-title{
+    width: 100%;
+    flex: 1;
+  }
+  .works-sect-title h3{
+    font-size: var(--fontsize-md);
+    margin-bottom: var(--spacing-xs);
+  }
+  .works-sect-title h1{
+    font-size: 72px;
+    margin-bottom: var(--spacing-re);
+  }
+  .works-sect-title h1 small{
+    font-size: var(--fontsize-re);
+  }
+  .works-sect-title span{
+    font-size: var(--fontsize-xs);
+  }
+  .portfolio-part .works-wrap{
+    flex: 1;
+    gap: 12px;
+  }
+  .works-intro-box{
+    width: 216px; height: 270px;
+    padding: 16px 14px 0 14px;
+    border-radius: 12px;
+  }
+  .works-intro-box .icons{
+    margin-bottom: var(--spacing-md);
+  }
+  .works-intro-box .icons a img{
+    width: 36px; height: 36px;
+  }
+  .works-intro-box .text-box{
+    margin-bottom: var(--spacing-xl);
+  }
+  .works-intro-box .text-box h3{
+    font-size: 20px;
+    margin-bottom: var(--spacing-sm);
+  }
+  .works-intro-box .text-box p{
+    font-size: var(--fontsize-xs);
+    line-height: 1.1;
+  }
+  .works-intro-box .tools{gap: var(--spacing-re);}
+  .works-intro-box .tools img{
+    width: 24px; height: 24px;
+  }
+  .works-intro-box .text-box .badge{display: none;}
+  .works-intro-box .text-box h3 .badge-responsive{display: inline-block;}
+
+  /* hover-ani */
+  .works-intro-box:hover{
+    transform: translateY(-6px);
+  }
+
+  .popup-image-box img{height: 340%;}
+   /* 세부조정 */
+  #cola .popup-image-box img{height: 460%;}
+
+
+  /* 에필로그 섹션 : 연락처 */
+  .contact-sect{
+    padding-top: 120px;
+    width: 100%; height: 370px;
+  }
+  .ego{
+    font-size: 22px;
+    font-weight: var(--fontweight-md);
+    margin-bottom: 36px;
+  }
+  .info-box{
+    width: 100%; height: 180px;
+    flex-direction: column;
+  }
+  .info-box img{
+    width: 64px; height: 64px;
+    margin: 0 0 18px 0;
+  }
+  .info-box .info p{
+    font-size: var(--fontsize-md);
+    font-weight: var(--fontweight-md);
+  }
+  .info-box .info p:first-child{margin-bottom: var(--spacing-sm);}
+  .info-box .info p .colored{margin-right: var(--spacing-re);}
+}
