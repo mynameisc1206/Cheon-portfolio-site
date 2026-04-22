@@ -112,7 +112,7 @@
   /* 인트로 섹션 - 자기소개 */
   .intro-sect{
     margin-top: 32px;
-    height: 810px;
+    min-height: 810px;
   }
   .intro-sect .inner{
     flex-direction: column;
@@ -132,7 +132,7 @@
   .about-sect{
     margin-top: 90px;
     padding: 44px 0;
-    height: 630px;
+    min-height: 630px;
   }
   .about-title h1{font-size: 96px;}
   .tab{height: 180px; padding: var(--spacing-sm);}
@@ -144,7 +144,7 @@
   .skill-sect{
     margin-top: 80px; 
     padding: 28px 0;
-    height: 120vh;
+    min-height: 1080px;
   }
   .skill-btn-wrap{
     flex-direction: column;
